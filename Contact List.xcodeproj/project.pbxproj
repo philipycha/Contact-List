@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		15FFE49D1D7F47FD001F3CC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE49C1D7F47FD001F3CC1 /* main.m */; };
 		15FFE4A81D7F49EB001F3CC1 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE4A71D7F49EB001F3CC1 /* InputCollector.m */; };
+		15FFE4AB1D7F5DF5001F3CC1 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE4AA1D7F5DF5001F3CC1 /* Contact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		15FFE49C1D7F47FD001F3CC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15FFE4A61D7F49EB001F3CC1 /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputCollector.h; path = ../InputCollector.h; sourceTree = "<group>"; };
 		15FFE4A71D7F49EB001F3CC1 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputCollector.m; path = ../InputCollector.m; sourceTree = "<group>"; };
+		15FFE4A91D7F5DF5001F3CC1 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		15FFE4AA1D7F5DF5001F3CC1 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				15FFE4A61D7F49EB001F3CC1 /* InputCollector.h */,
 				15FFE4A71D7F49EB001F3CC1 /* InputCollector.m */,
+				15FFE4A91D7F5DF5001F3CC1 /* Contact.h */,
+				15FFE4AA1D7F5DF5001F3CC1 /* Contact.m */,
 				15FFE49C1D7F47FD001F3CC1 /* main.m */,
 			);
 			path = "Contact List";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15FFE4A81D7F49EB001F3CC1 /* InputCollector.m in Sources */,
+				15FFE4AB1D7F5DF5001F3CC1 /* Contact.m in Sources */,
 				15FFE49D1D7F47FD001F3CC1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
